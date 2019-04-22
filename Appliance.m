@@ -10,4 +10,11 @@
 
 @implementation Appliance
 @synthesize productName, voltage;
+- (id)init {
+  self = [super init];
+  if(self) {
+    voltage = 120;
+  }
+  return self;
+}
 @end
