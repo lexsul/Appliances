@@ -44,8 +44,6 @@
 		FA291BAF226D8E8E0009108E = {
 			isa = PBXGroup;
 			children = (
-				FA291BC2226D8F6B0009108E /* Appliance.h */,
-				FA291BC3226D8F6B0009108E /* Appliance.m */,
 				FA291BBA226D8E8E0009108E /* Appliances */,
 				FA291BB9226D8E8E0009108E /* Products */,
 			);
@@ -62,6 +60,8 @@
 		FA291BBA226D8E8E0009108E /* Appliances */ = {
 			isa = PBXGroup;
 			children = (
+				FA291BC3226D8F6B0009108E /* Appliance.m */,
+				FA291BC2226D8F6B0009108E /* Appliance.h */,
 				FA291BBB226D8E8E0009108E /* main.m */,
 			);
 			path = Appliances;

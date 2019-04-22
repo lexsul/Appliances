@@ -10,11 +10,20 @@
 
 @implementation Appliance
 @synthesize productName, voltage;
-- (id)init {
+-(id)init{
+  return [self initWithProductName:@"unknown"];
+}
+- (id)initWithProductName:(NSString *)pn {
   self = [super init];
   if(self) {
-    voltage = 120;
+    [self setProductName:pn];
+    [self setVoltage:120];
+    //voltage = 120;
   }
   return self;
+}
+- (NSString *)description
+{
+  return [NSString stringWithFormat:@"<%@: %d volts", productName, voltage];
 }
 @end
